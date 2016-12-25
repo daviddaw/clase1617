@@ -11,7 +11,7 @@ public class Main {
 		System.out.println("articulo 1");
 		System.out.println("Introduzca el nombre:");
 		nombre2=LeerTeclado.readString();
-		System.out.println("Introduzca el color");
+		System.out.println("Introduzca el color:");
 		color2=LeerTeclado.readString();
 		Articulo Articulo1 = new Articulo(nombre2, color2);
 		Articulo1.setColor(color2);
