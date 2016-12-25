@@ -22,7 +22,7 @@ public class Main {
 		nombre=LeerTeclado.readString();
 		System.out.println("Introduzca el color");
 		color=LeerTeclado.readString();
-		System.out.println("Introduzca el precio");
+		System.out.println("Introduzca el precio:");
 		precio=LeerTeclado.readDouble();
 		Articulo Articulo2 = new Articulo(nombre, color, precio);
 		
