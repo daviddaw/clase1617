@@ -1,0 +1,21 @@
+
+	EJERCICIOS BÁSICOS DE CLASES Y OBJETOS
+
+1. Diseña y codifica  una clase denominada TrianguloEquilátero teniendo en cuenta la información siguiente:
+Atributos:
+Privado lado	Lado del Triángulo. (double)
+Métodos:	
+Define dos constructores:
+Un constructor con argumentos
+Otro  por defecto.
+setLado()		Permite asignar el lado.
+getLado()		Retorna el lado.
+getAltura()		Retorna la altura.
+getArea()		Retorna el área.
+getPerimetro() 	Retorna el perímetro.
+toString()		Retorna los datos del triángulo, incluido área y perímetro
+
+Crea un main que:
+Cree dos triángulos, pidiendo los datos por teclado.
+Visualice su lado, base, altura, área y perímetro con los métodos get y con toString
+Cambie el lado de uno de ellos y obtenga el nuevo área y perímetro.

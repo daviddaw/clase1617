@@ -1,0 +1,32 @@
+2. Crea una clase Articulo con la siguiente información:
+
+
+Atributos: 
+
+Privado Código: int
+Publico Nombre: String
+Privado Color: String
+Privado Precio: double
+
+
+Métodos:
+
+Constructor que reciba los tres últimos atributos y cree el objeto. El código se debe generar de forma automática con autoincremento.
+Constructor por defecto. El código se debe generar de forma automática con autoincremento.
+Constructor que reciba el nombre y color  y cree el objeto. El código se debe generar de forma automática con autoincremento.
+Métodos get() y set() para los atributos privados.
+Método incrementarPrecio que pase como parámetro una cantidad que se sumará al precio del objeto.
+Método rebajarPrecio que disminuya en un 10%  el precio del objeto
+Método toString() para visualizar los datos del artículo.
+
+
+Crea un main para:
+
+Crear tres artículos, cada uno con un constructor (para los constructores con parámetros se pedirán los datos necesarios por teclado).
+En el artículo2, usar los métodos necesarios para dar valores a los atributos.
+En el objeto articulo3, usar el método necesario para poner el precio al artículo.
+En el artículo 1 cambiar el nombre y el color.
+Visualizar los datos de los artículos.
+Incrementar el precio del artículo2 (el incremento se pedirá por teclado).
+Rebajar el precio del artículo1.
+Visualizar los datos de los artículos después de los cambios de precio.
