@@ -5,10 +5,10 @@ public class Main {
 	public static void main(String[] args) {
 		double lado;
 		double lado2;
-		System.out.println("Escribe el lado del primer triangulo");
+		System.out.println("Escribe el lado del primer triangulo:");
 		lado=LeerTeclado.readInteger();
 		TrianguloEquilatero t1 = new TrianguloEquilatero(lado);
-		System.out.println("Su lado es "+t1.getLado()+" Su altura es "+t1.getAltura()+" su area es "+t1.getArea()+" y su perimetro es"+t1.getPerimetro());
+		System.out.println("Su lado es: "+t1.getLado()+" Su altura es "+t1.getAltura()+" su area es "+t1.getArea()+" y su perimetro es"+t1.getPerimetro());
 		System.out.println(t1.toString());
 		
 		
