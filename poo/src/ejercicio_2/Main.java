@@ -9,7 +9,7 @@ public class Main {
 		Double precio;
 		
 		System.out.println("articulo 1");
-		System.out.println("Introduzca el nombre");
+		System.out.println("Introduzca el nombre:");
 		nombre2=LeerTeclado.readString();
 		System.out.println("Introduzca el color");
 		color2=LeerTeclado.readString();
