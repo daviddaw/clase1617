@@ -12,7 +12,7 @@ public TrianguloEquilatero(double lado) {
 public double getLado()   {
 	return lado;
 }
-public void setLado(double lado) {
+public void setLado(double lado)   {
 	this.lado = lado;
 }
 public double getAltura() {
@@ -27,7 +27,7 @@ public double getArea() {
 }
 @Override
 public String toString() {
-	return "TrianguloEquilatero [lado=" + lado + ",Altura=" + getAltura()
+	return "TrianguloEquilatero [lado=" + lado + ", Altura=" + getAltura()
 			+ ", Area=" + getArea() + ", Perimetro=" + getPerimetro()
 			+ "]";
 }
