@@ -9,7 +9,7 @@ public TrianguloEquilatero(double lado) {
 	super();
 	this.lado = lado;
 }
-public double getLado() {
+public double getLado()   {
 	return lado;
 }
 public void setLado(double lado) {
