@@ -3,7 +3,7 @@
 
 1. DiseÃ±a y codifica  una clase denominada TrianguloEquilÃ¡tero teniendo en cuenta la informaciÃ³n siguiente:
 Atributos:
-Privado lado	Lado del TriÃ¡ngulo. (double)
+Privado lado	Lado del TriÃ¡ngulo.     (double)
 MÃ©todos:	
 Define dos constructores:
 Un constructor con argumentos
