@@ -22,7 +22,7 @@ public void setY(double y) {
 }
  public void distancia() {
 	 double distancia;
-	 distancia= ( Math.pow((x-x), 2) + Math.pow((y-y), 12);
+	 distancia=( Math.pow((x-x), 2) + Math.pow((y-y),12));
 	
 }
  

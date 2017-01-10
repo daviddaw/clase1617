@@ -1,6 +1,6 @@
 package ejercicio03bis;
 
-import ejercicio01.LeerTeclado;
+import ejercicio01bis.LeerTeclado;
 
 public class Main {
 
