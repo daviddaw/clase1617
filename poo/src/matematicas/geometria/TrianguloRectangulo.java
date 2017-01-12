@@ -28,6 +28,9 @@ public double getHipotenusa() {
 	return Math.sqrt(Math.pow(cateto1, 2)+Math.pow(cateto2, 2));
 	
 }
-
+public double getArea() {
+	return Math.sqrt(Math.pow(cateto1, 2)+Math.pow(cateto2, 2));
+	
+}
 
 }
