@@ -33,4 +33,11 @@ public double getArea() {
 	
 }
 
+@Override
+public String toString() {
+	return "TrianguloRectangulo [cateto1=" + cateto1 + ", cateto2=" + cateto2
+			+ ", getHipotenusa()=" + getHipotenusa() + ", getArea()="
+			+ getArea() + "]";
+}
+
 }
