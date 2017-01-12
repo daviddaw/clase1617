@@ -36,5 +36,23 @@ public static void main(String[] args) {
 		return "Ecuacion1Grado [a=" + a + ", b=" + b + ", c=" + c
 				+ ", solucion()=" + solucion() + "]";
 	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Ecuacion1Grado other = (Ecuacion1Grado) obj;
+		if (a != other.a)
+			return false;
+		if (b != other.b)
+			return false;
+		if (c != other.c)
+			return false;
+		return true;
+	}
 	
 }

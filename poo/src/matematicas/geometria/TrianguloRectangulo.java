@@ -40,4 +40,25 @@ public String toString() {
 			+ getArea() + "]";
 }
 
+
+
+
+@Override
+public boolean equals(Object obj) {
+	if (this == obj)
+		return true;
+	if (obj == null)
+		return false;
+	if (getClass() != obj.getClass())
+		return false;
+	TrianguloRectangulo other = (TrianguloRectangulo) obj;
+	if (Double.doubleToLongBits(cateto1) != Double
+			.doubleToLongBits(other.cateto1))
+		return false;
+	if (Double.doubleToLongBits(cateto2) != Double
+			.doubleToLongBits(other.cateto2))
+		return false;
+	return true;
+}
+
 }
