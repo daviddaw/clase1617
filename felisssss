@@ -1,0 +1,24 @@
+
+public class Ejercicio4 {
+
+	public static void main(String[] args) {
+		//	Escribir un programa que pase un nº de decimal a binario usando recursividad:
+
+		int n;
+		System.out.println("Introduce numero");
+		n=LeerTeclado.readInteger();
+		System.out.println(bin(n));
+
+	}
+
+	public static int bin(int n) {
+
+		if (n >= 2) {
+			return bin(n / 2)*10 + (n % 2) ;
+		}
+		else 
+			return n;
+
+	}
+
+}
