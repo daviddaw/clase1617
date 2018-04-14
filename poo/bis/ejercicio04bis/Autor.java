@@ -5,7 +5,7 @@ public class Autor {
 	private	String Nacionalidad;
 	private	int nacimiento;
 	private	int defuncion;
-	public Autor(String nombre, String nacionalidad, int nacimiento, int defunción) {
+	public Autor(String nombre, String nacionalidad, int nacimiento, int defuncion) {
 		Nombre = nombre;
 		Nacionalidad = nacionalidad;
 		this.nacimiento = nacimiento;
@@ -32,7 +32,7 @@ public class Autor {
 	public void setNacimiento(int nacimiento) {
 		this.nacimiento = nacimiento;
 	}
-	public int getDefunción() {
+	public int getDefuncion() {
 		return defuncion;
 	}
 	public void setDefuncion(int defuncion){
