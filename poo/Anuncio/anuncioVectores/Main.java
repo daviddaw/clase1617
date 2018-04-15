@@ -19,7 +19,8 @@ public class Main {
         
         vectorAnuncios.verAnuncios();
         
-        System.out.println("El coste totalde todos los anuncios es "+vectorAnuncios.costeTotal());
+        System.out.println("El coste total de todos los anuncios en el vector  es "+vectorAnuncios.costeTotal());
+        System.out.println("EL tiempo total dela emisora ser "+vectorAnuncios.sumaTiempoEmisora("ser"));
 
     }
 
