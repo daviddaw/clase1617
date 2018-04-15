@@ -13,7 +13,8 @@ public class ListaAnunciosVector {
     }
 
     public void verAnuncios(){
-        double total=0
+        double total=0;
+        
         for (int i = 0; i < listaAnuncios.size(); i++) {
         total+=listaAnuncios.elementAt(i).costeAnuncio();
         }
