@@ -19,7 +19,7 @@ public class Main {
         
         vAnuncios.verAnuncios();
         
-        //System.out.println(vAnuncios.costeTotal);
+        System.out.println("El coste totalde todos los anuncios es "+vAnuncios.costeTotal());
 
     }
 

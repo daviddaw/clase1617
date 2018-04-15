@@ -2,6 +2,7 @@ package anuncioVectores;
 
 public class AnuncioRadioTV extends Anuncio {
 	//A
+private static final double costeSegundo = 100;	
 private String emisora;
 private int duracion;
 private int frecuencia;
@@ -13,13 +14,13 @@ public AnuncioRadioTV(String nombre, String producto, int diasEmision, String em
 	this.frecuencia = frecuencia;
 }
 
-
+//abs
     @Override
     public double costeAnuncio() {
-        return 0;
+        return costeSegundo*duracion*frecuencia*super.getDiasEmision();
     }
 
-
+//GS
 	public String getEmisora() {
 		return emisora;
 	}
