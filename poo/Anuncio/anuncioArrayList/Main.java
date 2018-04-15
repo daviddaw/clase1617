@@ -20,6 +20,9 @@ public class Main {
         arrayListAnuncios.verAnuncios();
         
         System.out.println("El coste totalde todos los anuncios es "+arrayListAnuncios.costeTotal());
+        
+        System.out.println("El coste total de todos los anuncios en el arrayList  es "+arrayListAnuncios.costeTotal());
+        System.out.println("EL tiempo total dela emisora ser "+arrayListAnuncios.sumaTiempoEmisora("ser"));
 
     }
 
