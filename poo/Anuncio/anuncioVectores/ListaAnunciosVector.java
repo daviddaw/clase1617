@@ -1,4 +1,4 @@
-package anuncio;
+package anuncioVectores;
 
 import java.util.Vector;
 

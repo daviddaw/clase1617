@@ -1,4 +1,4 @@
-package anuncio;
+package anuncioVectores;
 
 public class AnuncioPrensa extends Anuncio {
 

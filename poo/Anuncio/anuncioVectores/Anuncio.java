@@ -1,4 +1,4 @@
-package anuncio;
+package anuncioVectores;
 
 public abstract class Anuncio {
 private String	nombre;

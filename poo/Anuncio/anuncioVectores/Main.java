@@ -1,4 +1,4 @@
-package anuncio;
+package anuncioVectores;
 
 import java.util.Scanner;
 
@@ -14,7 +14,12 @@ public class Main {
 
         //Insertamos los anuncios  tenemos que usar el objeto creado
         vAnuncios.insertarAnuncio(aRTV1);
-
+        vAnuncios.insertarAnuncio(aP1);
+        vAnuncios.insertarAnuncio(aRTV2);
+        
+        vAnuncios.verAnuncios();
+        
+        //System.out.println(vAnuncios.costeTotal);
 
     }
 
