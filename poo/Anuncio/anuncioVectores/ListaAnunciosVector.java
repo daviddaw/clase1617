@@ -15,7 +15,7 @@ public  class ListaAnunciosVector {
     
     public void  verAnuncios() {
     	for (int i = 0; i < listaAnuncios.size(); i++) {
-			System.out.println(listaAnuncios.elementAt(i).toString());
+			System.out.println(listaAnuncios.get(i).toString());
 			System.out.println("coste del anuncio"+i+": "+listaAnuncios.get(i).costeAnuncio());
 		}
     }
