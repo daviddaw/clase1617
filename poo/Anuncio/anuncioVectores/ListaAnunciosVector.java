@@ -12,12 +12,20 @@ public class ListaAnunciosVector {
         listaAnuncios= new Vector<Anuncio>();
     }
 
-    public void verAnuncios(){
+    
+    public void  verAnuncios() {
+    	for (int i = 0; i < listaAnuncios.size(); i++) {
+			System.out.println(listaAnuncios.elementAt(i).toString());
+			System.out.println("coste del anuncio"+i+": "+listaAnuncios.elementAt(i).costeAnuncio());
+		}
+    }
+    public double costeTotal(){
         double total=0;
         
         for (int i = 0; i < listaAnuncios.size(); i++) {
         total+=listaAnuncios.elementAt(i).costeAnuncio();
         }
+		return total;
     }
 
     public void insertarAnuncio(Anuncio anuncio){
