@@ -16,9 +16,10 @@ public class Main {
         arrayListAnuncios.insertarAnuncio(aRTV1);
         arrayListAnuncios.insertarAnuncio(aP1);
         arrayListAnuncios.insertarAnuncio(aRTV2);
-        
+        System.out.println();
+       
         arrayListAnuncios.verAnuncios();
-        
+       
         System.out.println("El coste totalde todos los anuncios es "+arrayListAnuncios.costeTotal());
         
         System.out.println("El coste total de todos los anuncios en el arrayList  es "+arrayListAnuncios.costeTotal());
